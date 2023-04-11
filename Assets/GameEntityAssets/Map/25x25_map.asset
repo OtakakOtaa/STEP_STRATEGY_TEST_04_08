@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fb42b27c914bef80ce17a342f1da68, type: 3}
+  m_Name: 25x25_map
+  m_EditorClassIdentifier: 
+  _primaryCell: {fileID: 5622133743965130999, guid: e32c9e32adde5df48bbd37e90d6d90dd, type: 3}
+  _mapOrigin: {x: 0, y: -5, z: 0}
+  _mapScale: {x: 25, y: 25}
+  _obstacles:
+  - {fileID: 7631253597252310040, guid: 0f6485777c2ff0a408ba262a21901bad, type: 3}
+  - {fileID: 414234967585307940, guid: a344fdc9f08565c45add9ad93a9c51e8, type: 3}
+  - {fileID: 9060207074256832731, guid: 1c04507f5a487dc4bb5bdb37bc40a1fa, type: 3}
+  _obstacleDensity: 0.027
+  _obstacleMaxSize: 1
+  _playerSpawnCell: 2
+  _enemySpawnCell: 1

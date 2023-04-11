@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f7bdd6b4f4c6c8c4389ceaaa6485133b, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 615433197175439362
+  m_TableData:
+  - m_Id: 430758866944
+    m_Localized: EXIT GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 586455625728
+    m_Localized: ENTER GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635180855296
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52251548364800
+    m_Localized: SELECT LANGUAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54079312801792
+    m_Localized: RUSSIAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54219461275648
+    m_Localized: ENGLISH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 558994254639104
+    m_Localized: ATTACK ENEMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559176358735872
+    m_Localized: PLAYER TURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559389404213248
+    m_Localized: ENEMY TURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559559294496768
+    m_Localized: 'PLAYER HEALTH : {playerHealthUI.Health}'
+    m_Metadata:
+      m_Items:
+      - rid: 615433197175439362
+  references:
+    version: 2
+    RefIds:
+    - rid: 615433197175439362
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00b0fa8ceafc0100
